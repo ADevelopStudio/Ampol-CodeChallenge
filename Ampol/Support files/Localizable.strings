@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  Ampol
+
+  Created by Dmitrii Zverev on 19/3/2023.
+  
+*/
+
+"DashboardView_last_fuel_transactions" = "Your last fuel transactions:";
+"DashboardView_No_fuel_transactions_found" = "No fuel transactions found";
+"DashboardView_Loading_your_fuel_transactions" = "Loading  your fuel transactions";
+"DashboardView_GDay" = "G'day";
+
+"FuelCardViewModel_liters" = "liters";
+"FuelCarouselView_See_all" = "See all";
+"FuelAllTransactionsView_Title" = "Fuel transactions";
+"FuelSingleTransactionView_Download_The_Invoice" = "Download the invoice";
+
+"ServiceError_invalid_status" = "Nothing found";
+"ServiceError_general_failure" = "Something went wrong";
+"ServiceError_invalid_url" = "Invalid Url";
+
+"DashboardView_last_charging_sessions" = "Recent charge session:";
+"DashboardView_No_charging_sessions_found" = "No recent chargings found";
+"DashboardView_Loading_your_charging_sessions" = "Loading  your charge sessions";
+
+"ChargingSessionsView_Title" = "Charging sessions";
+"ChargingSession_Bonus" = "Bonus";
+"ChargingSession_Minutes" = "mins";
+"ChargingSession_kWs" = "kWs";
+

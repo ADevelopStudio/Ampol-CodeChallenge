@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6262187A29C7285D00CFF843 /* FuelSingleTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262187929C7285D00CFF843 /* FuelSingleTransactionView.swift */; };
+		6262187D29C72C3F00CFF843 /* PointOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262187C29C72C3F00CFF843 /* PointOfInterest.swift */; };
+		6262187F29C7375900CFF843 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262187E29C7375900CFF843 /* User.swift */; };
+		6262188129C7392B00CFF843 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262188029C7392B00CFF843 /* DashboardViewModel.swift */; };
+		6262188429C73FFE00CFF843 /* ChargingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262188329C73FFE00CFF843 /* ChargingCardView.swift */; };
+		6262188629C7CA8100CFF843 /* DashboardFuelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262188529C7CA8100CFF843 /* DashboardFuelView.swift */; };
+		6262188829C7CC6300CFF843 /* ChargingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262188729C7CC6300CFF843 /* ChargingSession.swift */; };
+		6262188A29C7D0A500CFF843 /* DashboardChargingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262188929C7D0A500CFF843 /* DashboardChargingView.swift */; };
+		6262188C29C7D72A00CFF843 /* ChargingSingleTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262188B29C7D72A00CFF843 /* ChargingSingleTransactionView.swift */; };
+		6262188E29C7D99A00CFF843 /* ChargingSessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262188D29C7D99A00CFF843 /* ChargingSessionsView.swift */; };
+		6262189029C7E17D00CFF843 /* DashboardDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262188F29C7E17D00CFF843 /* DashboardDataSet.swift */; };
+		6262189229C7E71400CFF843 /* DashboardOthersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262189129C7E71400CFF843 /* DashboardOthersView.swift */; };
+		6262189529C7F1B500CFF843 /* DashboardUpcomingBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262189429C7F1B500CFF843 /* DashboardUpcomingBillView.swift */; };
+		6262189929C7F23900CFF843 /* DashboardStoreOfferCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262189829C7F23900CFF843 /* DashboardStoreOfferCardView.swift */; };
+		6262189B29C7F3B400CFF843 /* DashboardStoreOffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262189A29C7F3B400CFF843 /* DashboardStoreOffersView.swift */; };
 		62C2292D29C6C0AA001E82C0 /* AmpolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2292C29C6C0AA001E82C0 /* AmpolApp.swift */; };
 		62C2292F29C6C0AA001E82C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2292E29C6C0AA001E82C0 /* ContentView.swift */; };
 		62C2293129C6C0AB001E82C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C2293029C6C0AB001E82C0 /* Assets.xcassets */; };
 		62C2293429C6C0AB001E82C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C2293329C6C0AB001E82C0 /* Preview Assets.xcassets */; };
 		62C2293E29C6C0AB001E82C0 /* AmpolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2293D29C6C0AB001E82C0 /* AmpolTests.swift */; };
-		62C2294829C6C0AB001E82C0 /* AmpolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2294729C6C0AB001E82C0 /* AmpolUITests.swift */; };
-		62C2294A29C6C0AB001E82C0 /* AmpolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2294929C6C0AB001E82C0 /* AmpolUITestsLaunchTests.swift */; };
+		62C2295729C6C290001E82C0 /* FuelCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2295629C6C290001E82C0 /* FuelCardView.swift */; };
+		62C2295929C6C5F8001E82C0 /* Utilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2295829C6C5F8001E82C0 /* Utilites.swift */; };
+		62C2295C29C6C993001E82C0 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2295B29C6C993001E82C0 /* NetworkService.swift */; };
+		62C2295E29C6C9A8001E82C0 /* ApiPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2295D29C6C9A8001E82C0 /* ApiPath.swift */; };
+		62C2296029C6CAED001E82C0 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2295F29C6CAED001E82C0 /* ConnectionManager.swift */; };
+		62C2296229C6CB18001E82C0 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2296129C6CB18001E82C0 /* ServiceError.swift */; };
+		62C2296429C6CB38001E82C0 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2296329C6CB38001E82C0 /* String+Ext.swift */; };
+		62C2296729C6CB71001E82C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62C2296629C6CB71001E82C0 /* Localizable.strings */; };
+		62C2296B29C6CCB8001E82C0 /* MockedNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2296A29C6CCB8001E82C0 /* MockedNetworkManager.swift */; };
+		62C2296E29C6CDBB001E82C0 /* FuelCardViewModel + Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2296D29C6CDBB001E82C0 /* FuelCardViewModel + Mock.swift */; };
+		62C2297229C6CF77001E82C0 /* FuelTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2297129C6CF77001E82C0 /* FuelTransaction.swift */; };
+		62C2297429C6D0E2001E82C0 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2297329C6D0E2001E82C0 /* DashboardView.swift */; };
+		62C2297829C6D200001E82C0 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2297729C6D200001E82C0 /* Enums.swift */; };
+		62C2297B29C6D289001E82C0 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2297A29C6D289001E82C0 /* ErrorView.swift */; };
+		62C2297D29C6D78C001E82C0 /* FuelCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2297C29C6D78C001E82C0 /* FuelCarouselView.swift */; };
+		62C2297F29C6D7F8001E82C0 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2297E29C6D7F8001E82C0 /* Modifiers.swift */; };
+		62C2298229C7256A001E82C0 /* FuelAllTransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2298129C7256A001E82C0 /* FuelAllTransactionsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,16 +54,25 @@
 			remoteGlobalIDString = 62C2292829C6C0AA001E82C0;
 			remoteInfo = Ampol;
 		};
-		62C2294429C6C0AB001E82C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62C2292129C6C0AA001E82C0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62C2292829C6C0AA001E82C0;
-			remoteInfo = Ampol;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6262187929C7285D00CFF843 /* FuelSingleTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelSingleTransactionView.swift; sourceTree = "<group>"; };
+		6262187C29C72C3F00CFF843 /* PointOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointOfInterest.swift; sourceTree = "<group>"; };
+		6262187E29C7375900CFF843 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6262188029C7392B00CFF843 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		6262188229C73B9000CFF843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6262188329C73FFE00CFF843 /* ChargingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingCardView.swift; sourceTree = "<group>"; };
+		6262188529C7CA8100CFF843 /* DashboardFuelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardFuelView.swift; sourceTree = "<group>"; };
+		6262188729C7CC6300CFF843 /* ChargingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingSession.swift; sourceTree = "<group>"; };
+		6262188929C7D0A500CFF843 /* DashboardChargingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardChargingView.swift; sourceTree = "<group>"; };
+		6262188B29C7D72A00CFF843 /* ChargingSingleTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingSingleTransactionView.swift; sourceTree = "<group>"; };
+		6262188D29C7D99A00CFF843 /* ChargingSessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingSessionsView.swift; sourceTree = "<group>"; };
+		6262188F29C7E17D00CFF843 /* DashboardDataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardDataSet.swift; sourceTree = "<group>"; };
+		6262189129C7E71400CFF843 /* DashboardOthersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardOthersView.swift; sourceTree = "<group>"; };
+		6262189429C7F1B500CFF843 /* DashboardUpcomingBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardUpcomingBillView.swift; sourceTree = "<group>"; };
+		6262189829C7F23900CFF843 /* DashboardStoreOfferCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardStoreOfferCardView.swift; sourceTree = "<group>"; };
+		6262189A29C7F3B400CFF843 /* DashboardStoreOffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardStoreOffersView.swift; sourceTree = "<group>"; };
 		62C2292929C6C0AA001E82C0 /* Ampol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ampol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C2292C29C6C0AA001E82C0 /* AmpolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolApp.swift; sourceTree = "<group>"; };
 		62C2292E29C6C0AA001E82C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,9 +80,25 @@
 		62C2293329C6C0AB001E82C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		62C2293929C6C0AB001E82C0 /* AmpolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmpolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C2293D29C6C0AB001E82C0 /* AmpolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolTests.swift; sourceTree = "<group>"; };
-		62C2294329C6C0AB001E82C0 /* AmpolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmpolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C2294729C6C0AB001E82C0 /* AmpolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolUITests.swift; sourceTree = "<group>"; };
 		62C2294929C6C0AB001E82C0 /* AmpolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		62C2295629C6C290001E82C0 /* FuelCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCardView.swift; sourceTree = "<group>"; };
+		62C2295829C6C5F8001E82C0 /* Utilites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilites.swift; sourceTree = "<group>"; };
+		62C2295B29C6C993001E82C0 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		62C2295D29C6C9A8001E82C0 /* ApiPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPath.swift; sourceTree = "<group>"; };
+		62C2295F29C6CAED001E82C0 /* ConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		62C2296129C6CB18001E82C0 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		62C2296329C6CB38001E82C0 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		62C2296629C6CB71001E82C0 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		62C2296A29C6CCB8001E82C0 /* MockedNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockedNetworkManager.swift; sourceTree = "<group>"; };
+		62C2296D29C6CDBB001E82C0 /* FuelCardViewModel + Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FuelCardViewModel + Mock.swift"; sourceTree = "<group>"; };
+		62C2297129C6CF77001E82C0 /* FuelTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelTransaction.swift; sourceTree = "<group>"; };
+		62C2297329C6D0E2001E82C0 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		62C2297729C6D200001E82C0 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		62C2297A29C6D289001E82C0 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		62C2297C29C6D78C001E82C0 /* FuelCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCarouselView.swift; sourceTree = "<group>"; };
+		62C2297E29C6D7F8001E82C0 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		62C2298129C7256A001E82C0 /* FuelAllTransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelAllTransactionsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +116,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C2294029C6C0AB001E82C0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6262187B29C72C2A00CFF843 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				62C2297729C6D200001E82C0 /* Enums.swift */,
+				6262187C29C72C3F00CFF843 /* PointOfInterest.swift */,
+				6262187E29C7375900CFF843 /* User.swift */,
+				6262188F29C7E17D00CFF843 /* DashboardDataSet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6262189329C7F18400CFF843 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				6262189129C7E71400CFF843 /* DashboardOthersView.swift */,
+				6262189429C7F1B500CFF843 /* DashboardUpcomingBillView.swift */,
+				6262189829C7F23900CFF843 /* DashboardStoreOfferCardView.swift */,
+				6262189A29C7F3B400CFF843 /* DashboardStoreOffersView.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
 		62C2292029C6C0AA001E82C0 = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +156,6 @@
 			children = (
 				62C2292929C6C0AA001E82C0 /* Ampol.app */,
 				62C2293929C6C0AB001E82C0 /* AmpolTests.xctest */,
-				62C2294329C6C0AB001E82C0 /* AmpolUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +163,16 @@
 		62C2292B29C6C0AA001E82C0 /* Ampol */ = {
 			isa = PBXGroup;
 			children = (
+				6262188229C73B9000CFF843 /* Info.plist */,
 				62C2292C29C6C0AA001E82C0 /* AmpolApp.swift */,
 				62C2292E29C6C0AA001E82C0 /* ContentView.swift */,
+				62C2297929C6D274001E82C0 /* CommonViews */,
+				62C2296F29C6CF5F001E82C0 /* Dashboard */,
 				62C2293029C6C0AB001E82C0 /* Assets.xcassets */,
 				62C2293229C6C0AB001E82C0 /* Preview Content */,
+				6262187B29C72C2A00CFF843 /* Models */,
+				62C2296529C6CB5E001E82C0 /* Support files */,
+				62C2295A29C6C97F001E82C0 /* Networking */,
 			);
 			path = Ampol;
 			sourceTree = "<group>";
@@ -125,6 +200,83 @@
 				62C2294929C6C0AB001E82C0 /* AmpolUITestsLaunchTests.swift */,
 			);
 			path = AmpolUITests;
+			sourceTree = "<group>";
+		};
+		62C2295A29C6C97F001E82C0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				62C2295B29C6C993001E82C0 /* NetworkService.swift */,
+				62C2295D29C6C9A8001E82C0 /* ApiPath.swift */,
+				62C2295F29C6CAED001E82C0 /* ConnectionManager.swift */,
+				62C2296A29C6CCB8001E82C0 /* MockedNetworkManager.swift */,
+				62C2296129C6CB18001E82C0 /* ServiceError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		62C2296529C6CB5E001E82C0 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				62C2296C29C6CDAF001E82C0 /* Mock */,
+				62C2296329C6CB38001E82C0 /* String+Ext.swift */,
+				62C2295829C6C5F8001E82C0 /* Utilites.swift */,
+				62C2296629C6CB71001E82C0 /* Localizable.strings */,
+				62C2297E29C6D7F8001E82C0 /* Modifiers.swift */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+		62C2296C29C6CDAF001E82C0 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				62C2296D29C6CDBB001E82C0 /* FuelCardViewModel + Mock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		62C2296F29C6CF5F001E82C0 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				62C2297029C6CF69001E82C0 /* Fuel */,
+				62C2298029C72539001E82C0 /* Charging */,
+				6262189329C7F18400CFF843 /* Others */,
+				62C2297329C6D0E2001E82C0 /* DashboardView.swift */,
+				6262188029C7392B00CFF843 /* DashboardViewModel.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		62C2297029C6CF69001E82C0 /* Fuel */ = {
+			isa = PBXGroup;
+			children = (
+				6262188529C7CA8100CFF843 /* DashboardFuelView.swift */,
+				62C2295629C6C290001E82C0 /* FuelCardView.swift */,
+				62C2297129C6CF77001E82C0 /* FuelTransaction.swift */,
+				62C2297C29C6D78C001E82C0 /* FuelCarouselView.swift */,
+				62C2298129C7256A001E82C0 /* FuelAllTransactionsView.swift */,
+				6262187929C7285D00CFF843 /* FuelSingleTransactionView.swift */,
+			);
+			path = Fuel;
+			sourceTree = "<group>";
+		};
+		62C2297929C6D274001E82C0 /* CommonViews */ = {
+			isa = PBXGroup;
+			children = (
+				62C2297A29C6D289001E82C0 /* ErrorView.swift */,
+			);
+			path = CommonViews;
+			sourceTree = "<group>";
+		};
+		62C2298029C72539001E82C0 /* Charging */ = {
+			isa = PBXGroup;
+			children = (
+				6262188929C7D0A500CFF843 /* DashboardChargingView.swift */,
+				6262188329C73FFE00CFF843 /* ChargingCardView.swift */,
+				6262188729C7CC6300CFF843 /* ChargingSession.swift */,
+				6262188D29C7D99A00CFF843 /* ChargingSessionsView.swift */,
+				6262188B29C7D72A00CFF843 /* ChargingSingleTransactionView.swift */,
+			);
+			path = Charging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +317,6 @@
 			productReference = 62C2293929C6C0AB001E82C0 /* AmpolTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		62C2294229C6C0AB001E82C0 /* AmpolUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62C2295329C6C0AB001E82C0 /* Build configuration list for PBXNativeTarget "AmpolUITests" */;
-			buildPhases = (
-				62C2293F29C6C0AB001E82C0 /* Sources */,
-				62C2294029C6C0AB001E82C0 /* Frameworks */,
-				62C2294129C6C0AB001E82C0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62C2294529C6C0AB001E82C0 /* PBXTargetDependency */,
-			);
-			name = AmpolUITests;
-			productName = AmpolUITests;
-			productReference = 62C2294329C6C0AB001E82C0 /* AmpolUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +331,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					62C2293829C6C0AB001E82C0 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 62C2292829C6C0AA001E82C0;
-					};
-					62C2294229C6C0AB001E82C0 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 62C2292829C6C0AA001E82C0;
 					};
@@ -221,7 +351,6 @@
 			targets = (
 				62C2292829C6C0AA001E82C0 /* Ampol */,
 				62C2293829C6C0AB001E82C0 /* AmpolTests */,
-				62C2294229C6C0AB001E82C0 /* AmpolUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,18 +361,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				62C2293429C6C0AB001E82C0 /* Preview Assets.xcassets in Resources */,
+				62C2296729C6CB71001E82C0 /* Localizable.strings in Resources */,
 				62C2293129C6C0AB001E82C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		62C2293729C6C0AB001E82C0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62C2294129C6C0AB001E82C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,8 +380,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62C2296429C6CB38001E82C0 /* String+Ext.swift in Sources */,
+				62C2296229C6CB18001E82C0 /* ServiceError.swift in Sources */,
+				62C2296B29C6CCB8001E82C0 /* MockedNetworkManager.swift in Sources */,
+				62C2295C29C6C993001E82C0 /* NetworkService.swift in Sources */,
+				6262188429C73FFE00CFF843 /* ChargingCardView.swift in Sources */,
+				62C2297829C6D200001E82C0 /* Enums.swift in Sources */,
+				62C2297229C6CF77001E82C0 /* FuelTransaction.swift in Sources */,
+				62C2297D29C6D78C001E82C0 /* FuelCarouselView.swift in Sources */,
+				6262189929C7F23900CFF843 /* DashboardStoreOfferCardView.swift in Sources */,
+				6262188A29C7D0A500CFF843 /* DashboardChargingView.swift in Sources */,
+				62C2295929C6C5F8001E82C0 /* Utilites.swift in Sources */,
+				6262188E29C7D99A00CFF843 /* ChargingSessionsView.swift in Sources */,
+				62C2295729C6C290001E82C0 /* FuelCardView.swift in Sources */,
+				62C2298229C7256A001E82C0 /* FuelAllTransactionsView.swift in Sources */,
+				6262189529C7F1B500CFF843 /* DashboardUpcomingBillView.swift in Sources */,
+				6262187A29C7285D00CFF843 /* FuelSingleTransactionView.swift in Sources */,
+				6262189B29C7F3B400CFF843 /* DashboardStoreOffersView.swift in Sources */,
+				62C2296029C6CAED001E82C0 /* ConnectionManager.swift in Sources */,
+				62C2295E29C6C9A8001E82C0 /* ApiPath.swift in Sources */,
+				62C2297F29C6D7F8001E82C0 /* Modifiers.swift in Sources */,
+				62C2297B29C6D289001E82C0 /* ErrorView.swift in Sources */,
+				6262188129C7392B00CFF843 /* DashboardViewModel.swift in Sources */,
+				6262188629C7CA8100CFF843 /* DashboardFuelView.swift in Sources */,
+				6262188C29C7D72A00CFF843 /* ChargingSingleTransactionView.swift in Sources */,
+				62C2296E29C6CDBB001E82C0 /* FuelCardViewModel + Mock.swift in Sources */,
+				6262188829C7CC6300CFF843 /* ChargingSession.swift in Sources */,
 				62C2292F29C6C0AA001E82C0 /* ContentView.swift in Sources */,
+				6262189229C7E71400CFF843 /* DashboardOthersView.swift in Sources */,
+				6262187D29C72C3F00CFF843 /* PointOfInterest.swift in Sources */,
+				62C2297429C6D0E2001E82C0 /* DashboardView.swift in Sources */,
 				62C2292D29C6C0AA001E82C0 /* AmpolApp.swift in Sources */,
+				6262189029C7E17D00CFF843 /* DashboardDataSet.swift in Sources */,
+				6262187F29C7375900CFF843 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +424,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62C2293F29C6C0AB001E82C0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62C2294A29C6C0AB001E82C0 /* AmpolUITestsLaunchTests.swift in Sources */,
-				62C2294829C6C0AB001E82C0 /* AmpolUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +431,6 @@
 			isa = PBXTargetDependency;
 			target = 62C2292829C6C0AA001E82C0 /* Ampol */;
 			targetProxy = 62C2293A29C6C0AB001E82C0 /* PBXContainerItemProxy */;
-		};
-		62C2294529C6C0AB001E82C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62C2292829C6C0AA001E82C0 /* Ampol */;
-			targetProxy = 62C2294429C6C0AB001E82C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -420,11 +560,13 @@
 				DEVELOPMENT_TEAM = 2QX9SH777P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Ampol/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -432,9 +574,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.makemeapp.Ampol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,11 +594,13 @@
 				DEVELOPMENT_TEAM = 2QX9SH777P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Ampol/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,9 +608,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.makemeapp.Ampol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -507,42 +657,6 @@
 			};
 			name = Release;
 		};
-		62C2295429C6C0AB001E82C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2QX9SH777P;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.makemeapp.AmpolUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Ampol;
-			};
-			name = Debug;
-		};
-		62C2295529C6C0AB001E82C0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2QX9SH777P;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = au.com.makemeapp.AmpolUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Ampol;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,15 +683,6 @@
 			buildConfigurations = (
 				62C2295129C6C0AB001E82C0 /* Debug */,
 				62C2295229C6C0AB001E82C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62C2295329C6C0AB001E82C0 /* Build configuration list for PBXNativeTarget "AmpolUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62C2295429C6C0AB001E82C0 /* Debug */,
-				62C2295529C6C0AB001E82C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
