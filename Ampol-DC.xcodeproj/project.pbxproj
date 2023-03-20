@@ -82,12 +82,12 @@
 		626218A329C8142A00CFF843 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		626218A529C814B000CFF843 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		626218A629C814BC00CFF843 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		62C2292929C6C0AA001E82C0 /* Ampol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ampol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C2292929C6C0AA001E82C0 /* Ampol-DC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ampol-DC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C2292C29C6C0AA001E82C0 /* AmpolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolApp.swift; sourceTree = "<group>"; };
 		62C2292E29C6C0AA001E82C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		62C2293029C6C0AB001E82C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62C2293329C6C0AB001E82C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		62C2293929C6C0AB001E82C0 /* AmpolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmpolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C2293929C6C0AB001E82C0 /* Ampol-DCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ampol-DCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C2293D29C6C0AB001E82C0 /* AmpolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolTests.swift; sourceTree = "<group>"; };
 		62C2295629C6C290001E82C0 /* FuelCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCardView.swift; sourceTree = "<group>"; };
 		62C2295829C6C5F8001E82C0 /* Utilites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilites.swift; sourceTree = "<group>"; };
@@ -161,8 +161,8 @@
 		62C2292A29C6C0AA001E82C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62C2292929C6C0AA001E82C0 /* Ampol.app */,
-				62C2293929C6C0AB001E82C0 /* AmpolTests.xctest */,
+				62C2292929C6C0AA001E82C0 /* Ampol-DC.app */,
+				62C2293929C6C0AB001E82C0 /* Ampol-DCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -281,9 +281,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		62C2292829C6C0AA001E82C0 /* Ampol */ = {
+		62C2292829C6C0AA001E82C0 /* Ampol-DC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62C2294D29C6C0AB001E82C0 /* Build configuration list for PBXNativeTarget "Ampol" */;
+			buildConfigurationList = 62C2294D29C6C0AB001E82C0 /* Build configuration list for PBXNativeTarget "Ampol-DC" */;
 			buildPhases = (
 				62C2292529C6C0AA001E82C0 /* Sources */,
 				62C2292629C6C0AA001E82C0 /* Frameworks */,
@@ -293,14 +293,14 @@
 			);
 			dependencies = (
 			);
-			name = Ampol;
+			name = "Ampol-DC";
 			productName = Ampol;
-			productReference = 62C2292929C6C0AA001E82C0 /* Ampol.app */;
+			productReference = 62C2292929C6C0AA001E82C0 /* Ampol-DC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		62C2293829C6C0AB001E82C0 /* AmpolTests */ = {
+		62C2293829C6C0AB001E82C0 /* Ampol-DCTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62C2295029C6C0AB001E82C0 /* Build configuration list for PBXNativeTarget "AmpolTests" */;
+			buildConfigurationList = 62C2295029C6C0AB001E82C0 /* Build configuration list for PBXNativeTarget "Ampol-DCTests" */;
 			buildPhases = (
 				62C2293529C6C0AB001E82C0 /* Sources */,
 				62C2293629C6C0AB001E82C0 /* Frameworks */,
@@ -311,9 +311,9 @@
 			dependencies = (
 				62C2293B29C6C0AB001E82C0 /* PBXTargetDependency */,
 			);
-			name = AmpolTests;
+			name = "Ampol-DCTests";
 			productName = AmpolTests;
-			productReference = 62C2293929C6C0AB001E82C0 /* AmpolTests.xctest */;
+			productReference = 62C2293929C6C0AB001E82C0 /* Ampol-DCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -335,7 +335,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 62C2292429C6C0AA001E82C0 /* Build configuration list for PBXProject "Ampol" */;
+			buildConfigurationList = 62C2292429C6C0AA001E82C0 /* Build configuration list for PBXProject "Ampol-DC" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -350,8 +350,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62C2292829C6C0AA001E82C0 /* Ampol */,
-				62C2293829C6C0AB001E82C0 /* AmpolTests */,
+				62C2292829C6C0AA001E82C0 /* Ampol-DC */,
+				62C2293829C6C0AB001E82C0 /* Ampol-DCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -433,7 +433,7 @@
 /* Begin PBXTargetDependency section */
 		62C2293B29C6C0AB001E82C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62C2292829C6C0AA001E82C0 /* Ampol */;
+			target = 62C2292829C6C0AA001E82C0 /* Ampol-DC */;
 			targetProxy = 62C2293A29C6C0AB001E82C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -652,7 +652,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ampol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ampol";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ampol-DC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ampol-DC";
 			};
 			name = Debug;
 		};
@@ -672,14 +672,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ampol.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ampol";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ampol-DC.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ampol-DC";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		62C2292429C6C0AA001E82C0 /* Build configuration list for PBXProject "Ampol" */ = {
+		62C2292429C6C0AA001E82C0 /* Build configuration list for PBXProject "Ampol-DC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62C2294B29C6C0AB001E82C0 /* Debug */,
@@ -688,7 +688,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62C2294D29C6C0AB001E82C0 /* Build configuration list for PBXNativeTarget "Ampol" */ = {
+		62C2294D29C6C0AB001E82C0 /* Build configuration list for PBXNativeTarget "Ampol-DC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62C2294E29C6C0AB001E82C0 /* Debug */,
@@ -697,7 +697,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62C2295029C6C0AB001E82C0 /* Build configuration list for PBXNativeTarget "AmpolTests" */ = {
+		62C2295029C6C0AB001E82C0 /* Build configuration list for PBXNativeTarget "Ampol-DCTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62C2295129C6C0AB001E82C0 /* Debug */,
