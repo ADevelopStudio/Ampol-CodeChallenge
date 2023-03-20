@@ -12,6 +12,5 @@ struct User {
     
     var name: String = "John"
     var authToken: String = "USER_TOKEN"
-    
     var homeUsageCoastPerKW: Double = 0.27
 }

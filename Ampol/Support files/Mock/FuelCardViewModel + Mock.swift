@@ -60,7 +60,7 @@ struct Mock {
     
     static var homeEnergyUsage: [HomeEnergyUsage] {
         (1...10).map { number in
-            HomeEnergyUsage(kws: Double.random(in: 1...5), createdAt: .now.addingTimeInterval(Double(-number)*30*24*60*60))
+            HomeEnergyUsage(kws: Double.random(in: 30...150), createdAt: .now.addingTimeInterval(Double(-number)*30*24*60*60))
         }
     }
 }

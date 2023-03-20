@@ -17,7 +17,6 @@ struct ChargingSession: Codable, Identifiable {
     private var createdAt: Date
     private var cost: Double
     
-
     var invoiceURL: String = "https://slicedinvoices.com/pdf/wordpress-pdf-invoice-plugin-sample.pdf"
     
     init(id: Int, locationName: String, locationLong: Double, locationLat: Double, discount: String?, chargingTime: Int, amount: Double, createdAt: Date, cost: Double) {
@@ -32,8 +31,6 @@ struct ChargingSession: Codable, Identifiable {
         self.cost = cost
     }
 }
-
-
 
 extension ChargingSession {
     var bonus: String? {

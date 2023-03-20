@@ -31,6 +31,12 @@ struct Utilites {
         return formatter
     }()
     
+    lazy var chartDateFormatter: DateFormatter = {
+       let df = DateFormatter()
+        df.dateFormat = "MMM"
+        return df
+    }()
+    
     lazy var encoder: JSONEncoder = {
         let encoder = JSONEncoder()
         encoder.keyEncodingStrategy = .convertToSnakeCase

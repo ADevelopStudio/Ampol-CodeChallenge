@@ -20,19 +20,23 @@ struct DashboardOthersView: View {
                 }
                 
                 if let _ = dataset?.homeEnergyUsage.first {
-                    HStack {
-                        Label("Home energy usage history", systemImage: "chart.xyaxis.line")
-                        Image(systemName: "chevron.right")
-                            .imageScale(.small)
+                    NavigationLink {
+                        HomeUsageBillsView(homeEnergyUsage: dataset?.homeEnergyUsage ?? [])
+                    } label: {
+                        HStack {
+                            Label(DashboardOthersViewStrings.homeEnergyUsage.localised, systemImage: "chart.xyaxis.line")
+                            Image(systemName: "chevron.right")
+                                .imageScale(.small)
+                        }
+                        .font(.headline)
+                        .foregroundColor(.accentColor)
+                        .asCard()
                     }
-                    .font(.headline)
-                    .foregroundColor(.accentColor)
-                    .asCard()
                 }
                 
                 if let firstOffer = dataset?.storeOffers.first {
                     HStack {
-                        Label("In Store Offers", systemImage: "bell.badge")
+                        Label(DashboardOthersViewStrings.inStoreOffers.localised, systemImage: "bell.badge")
                             .font(.headline)
 
                         Spacer()
@@ -75,4 +79,10 @@ struct DashboardOthersView_Previews: PreviewProvider {
     static var previews: some View {
         DashboardOthersView(dashLoadingState: .constant(.idle), dataset: .constant(Mock.dashboardDataSet))
     }
+}
+
+
+enum DashboardOthersViewStrings: String, CaseIterable {
+    case homeEnergyUsage = "DashboardOthersViewStrings_HomeEnergyUsage" //"Home energy usage history";
+    case inStoreOffers = "DashboardOthersViewStrings_InStoreOffers" //"In Store Offers";
 }

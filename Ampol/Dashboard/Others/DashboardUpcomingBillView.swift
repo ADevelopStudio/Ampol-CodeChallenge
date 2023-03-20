@@ -12,7 +12,7 @@ struct DashboardUpcomingBillView: View {
 
     var body: some View {
         Group {
-            Label("Upcoming enegry bill", systemImage: "info.circle")
+            Label(DashboardUpcomingBillViewStrings.upcomingBill.localised, systemImage: "info.circle")
                 .font(.headline)
                 .padding(.bottom, -10)
             HStack {
@@ -34,3 +34,8 @@ struct DashboardUpcomingBillView: View {
         }
     }
 }
+
+enum DashboardUpcomingBillViewStrings: String, CaseIterable {
+    case upcomingBill = "DashboardUpcomingBillViewStrings_UpcomingBill" //"Upcoming energy bill";
+}
+

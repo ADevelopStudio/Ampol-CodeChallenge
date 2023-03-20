@@ -29,3 +29,14 @@
 "ChargingSession_Minutes" = "mins";
 "ChargingSession_kWs" = "kWs";
 
+"DashboardOthersViewStrings_HomeEnergyUsage" = "Home energy usage history";
+"DashboardOthersViewStrings_InStoreOffers" = "In Store Offers";
+
+"HomeUsageBillsView_HomeEnergyUsage" = "Home energy usage";
+"HomeUsageBillsChartViewStrings_ChartTitle" = "kWs/month";
+
+"DashboardUpcomingBillViewStrings_UpcomingBill" = "Upcoming energy bill";
+"DashboardStoreOffersViewStrings_Title" = "In Store Offers";
+
+"DashboardDataSetStrings_Paid" = "Paid";
+"DashboardDataSetStrings_PayBy" = "Pay by";

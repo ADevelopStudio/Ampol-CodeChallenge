@@ -38,7 +38,7 @@ struct ChargingSingleTransactionView: View {
                             .font(.footnote)
                     }
                     .padding(.bottom, 20)
-                
+                    
                     Label(session.kWs, systemImage: "bolt.car")
                         .font(.title3)
                         .foregroundStyle(.primary, .green)

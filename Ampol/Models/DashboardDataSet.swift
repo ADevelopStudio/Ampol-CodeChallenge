@@ -39,7 +39,7 @@ struct UpcomingEnergyBill: Codable {
         self.dueDate = dueDate
     }
     var payByDate: String {
-        ["Pay by", Utilites.shared.humanReadableDateFormatterWithotTime.string(from: dueDate)].joined(separator: ": ")
+        [DashboardDataSetStrings.payBy.localised, Utilites.shared.humanReadableDateFormatterWithotTime.string(from: dueDate)].joined(separator: ": ")
     }
     
     var price: String {
@@ -52,16 +52,18 @@ struct UpcomingEnergyBill: Codable {
 
 struct HomeEnergyUsage: Codable, Identifiable {
     var id = UUID()
-    private var kws: Double
-    private var createdAt: Date
+    var kws: Double
+    var createdAt: Date
     
     init(kws: Double, createdAt: Date) {
         self.kws = kws
         self.createdAt = createdAt
     }
     
+    var invoiceURL: String = "https://slicedinvoices.com/pdf/wordpress-pdf-invoice-plugin-sample.pdf"
+
     var paidDate: String {
-        ["Paid", Utilites.shared.humanReadableDateFormatterWithotTime.string(from: createdAt)].joined(separator: ": ")
+        [DashboardDataSetStrings.paid.localised, Utilites.shared.humanReadableDateFormatterWithotTime.string(from: createdAt)].joined(separator: ": ")
     }
     
     var price: String {
@@ -71,3 +73,9 @@ struct HomeEnergyUsage: Codable, Identifiable {
         [kws.formatted(.number.precision(.fractionLength(1))), ChargingSessionStrings.kws.localised].joined(separator: " ")
     }
 }
+
+enum DashboardDataSetStrings: String, CaseIterable {
+    case paid = "DashboardDataSetStrings_Paid" //"Paid";
+    case payBy = "DashboardDataSetStrings_PayBy" //"Pay by";
+}
+

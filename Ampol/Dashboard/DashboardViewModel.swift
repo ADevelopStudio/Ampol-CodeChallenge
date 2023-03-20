@@ -13,7 +13,6 @@ class DashboardViewModel: ObservableObject {
     @Published var fuelTransactions: [FuelTransaction] = []
     @Published var chargingLoadingState: LoadingState = .loading
     @Published var chargingSessions: [ChargingSession] = []
-    
     @Published var dashLoadingState: LoadingState = .loading
     @Published var dataset: DashboardDataSet?
     

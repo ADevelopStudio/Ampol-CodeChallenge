@@ -31,8 +31,6 @@ struct FuelTransaction: Codable, Identifiable {
     }
 }
 
-
-
 extension FuelTransaction {
     var date: String {
         Utilites.shared.humanReadableDateFormatter.string(from: createdAt)
@@ -41,6 +39,11 @@ extension FuelTransaction {
         Utilites.shared.currencyFormatter.string(from:  NSNumber(floatLiteral: cost)) ?? ""
     }
     var liters: String {
-        [amount.formatted(.number.precision(.fractionLength(1))), "FuelCardViewModel_liters".localised].joined(separator: " ")
+        [amount.formatted(.number.precision(.fractionLength(1))), FuelTransactionStrings.liters.localised].joined(separator: " ")
     }
+}
+
+
+enum FuelTransactionStrings: String, CaseIterable {
+    case liters = "FuelCardViewModel_liters" //"In Store Offers";
 }

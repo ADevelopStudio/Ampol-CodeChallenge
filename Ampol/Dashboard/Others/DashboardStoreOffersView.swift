@@ -23,7 +23,13 @@ struct DashboardStoreOffersView: View {
                 DashboardStoreOfferCardView(offer: offer)
             }
         }
-        .navigationTitle("In Store Offers")
+        .navigationTitle(DashboardStoreOffersViewStrings.title.localised)
         .navigationBarTitleDisplayMode(.inline)
     }
 }
+
+enum DashboardStoreOffersViewStrings: String, CaseIterable {
+    case title = "DashboardStoreOffersViewStrings_Title" //"In Store Offers";
+}
+
+
