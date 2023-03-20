@@ -21,8 +21,14 @@ by _Dmitrii Zverev_. 20 March 2023
 
 <h2>iOS:</h2>
 - [x] Pure SwiftUI 3+ (iOS 15 minimum target) application
+
 - [x] Combine + Swift Modern Concurrency (async await)
+
 - [x] SwiftUI application lifecycle
+
 - [ ] Swift Package Manager - NO NEED FOR THAN
+
 - [x] In house design system and component library
+
 - [x] Functional design and immutable state
+
