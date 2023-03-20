@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  Ampol
+
+  Created by Dmitrii Zverev on 19/3/2023.
+  
+*/
+
+"DashboardView_last_fuel_transactions" = "Tus últimas transacciones de combustible:";
+"DashboardView_No_fuel_transactions_found" = "No se encontraron transacciones de combustible";
+"DashboardView_Loading_your_fuel_transactions" = "Cargando sus transacciones de combustible";
+"DashboardView_GDay" = "Hola";
+
+"FuelCardViewModel_liters" = "litros";
+"FuelCarouselView_See_all" = "Ver todo";
+"FuelAllTransactionsView_Title" = "Transacciones de combustible";
+"FuelSingleTransactionView_Download_The_Invoice" = "Descarga la factura";
+
+"ServiceError_invalid_status" = "Nada Encontrado";
+"ServiceError_general_failure" = "Algo salió mal";
+"ServiceError_invalid_url" = "URL invalida";
+
+"DashboardView_last_charging_sessions" = "Sesión de carga reciente:";
+"DashboardView_No_charging_sessions_found" = "No se han encontrado cargos recientes";
+"DashboardView_Loading_your_charging_sessions" = "Cargando tus sesiones de carga";
+
+"ChargingSessionsView_Title" = "Sesiones de carga";
+"ChargingSession_Bonus" = "Primo";
+"ChargingSession_Minutes" = "mins";
+"ChargingSession_kWs" = "kWs";
+
+"DashboardOthersViewStrings_HomeEnergyUsage" = "Historial de uso de energía en el hogar";
+"DashboardOthersViewStrings_InStoreOffers" = "Ofertas en la tienda";
+
+"HomeUsageBillsView_HomeEnergyUsage" = "Uso de energía en el hogar";
+"HomeUsageBillsChartViewStrings_ChartTitle" = "kWs/mes";
+
+"DashboardUpcomingBillViewStrings_UpcomingBill" = "Próxima factura de energía";
+"DashboardStoreOffersViewStrings_Title" = "Ofertas en la tienda";
+
+"DashboardDataSetStrings_Paid" = "Pagado";
+"DashboardDataSetStrings_PayBy" = "Pagado por";
