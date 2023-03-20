@@ -8,7 +8,7 @@
 import Foundation
 
 class MockedNetworkManager{
-    static var stared = MockedNetworkManager()
+//    static var stared = MockedNetworkManager()
 }
 
 

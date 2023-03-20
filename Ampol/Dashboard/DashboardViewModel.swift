@@ -18,7 +18,7 @@ class DashboardViewModel: ObservableObject {
     
     private let network: NetworkService
     
-    init(network: NetworkService = MockedNetworkManager.stared) {
+    init(network: NetworkService = ConnectionManager.shared) {
         self.network = network
     }
     

@@ -9,7 +9,13 @@ import Foundation
 
 
 class ConnectionManager {
+    
+#if DEBUG
+    static let shared = MockedNetworkManager()
+#else
     static let shared = ConnectionManager()
+#endif
+    
     
     private func fetch<T: Decodable>(url: URL?) async throws -> T {
         guard let url else { throw ServiceError.invalidUrl }
