@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-@MainActor
 class DashboardViewModel: ObservableObject {
     @Published var fuelLoadingState: LoadingState = .loading
     @Published var fuelTransactions: [FuelTransaction] = []
@@ -28,6 +27,7 @@ class DashboardViewModel: ObservableObject {
         await self.loadDashData(changeStatusToLoading)
     }
     
+    @MainActor
     private func loadFuelTransactions(_ changeStatusToLoading: Bool) async {
         if changeStatusToLoading {
             self.fuelLoadingState = .loading
@@ -45,6 +45,7 @@ class DashboardViewModel: ObservableObject {
         }
     }
     
+    @MainActor
     private func loadChargingSessions(_ changeStatusToLoading: Bool) async {
         if changeStatusToLoading {
             self.chargingLoadingState = .loading
@@ -62,6 +63,7 @@ class DashboardViewModel: ObservableObject {
         }
     }
     
+    @MainActor
     private func loadDashData(_ changeStatusToLoading: Bool) async {
         if changeStatusToLoading {
             self.dashLoadingState = .loading

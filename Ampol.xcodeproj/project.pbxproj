@@ -24,6 +24,7 @@
 		6262189B29C7F3B400CFF843 /* DashboardStoreOffersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262189A29C7F3B400CFF843 /* DashboardStoreOffersView.swift */; };
 		6262189D29C7F73800CFF843 /* HomeUsageBillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262189C29C7F73800CFF843 /* HomeUsageBillsView.swift */; };
 		6262189F29C7FD0F00CFF843 /* HomeUsageBillsChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6262189E29C7FD0F00CFF843 /* HomeUsageBillsChartView.swift */; };
+		626218A129C8099F00CFF843 /* FailedNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626218A029C8099F00CFF843 /* FailedNetworkService.swift */; };
 		62C2292D29C6C0AA001E82C0 /* AmpolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2292C29C6C0AA001E82C0 /* AmpolApp.swift */; };
 		62C2292F29C6C0AA001E82C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C2292E29C6C0AA001E82C0 /* ContentView.swift */; };
 		62C2293129C6C0AB001E82C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62C2293029C6C0AB001E82C0 /* Assets.xcassets */; };
@@ -77,6 +78,7 @@
 		6262189A29C7F3B400CFF843 /* DashboardStoreOffersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardStoreOffersView.swift; sourceTree = "<group>"; };
 		6262189C29C7F73800CFF843 /* HomeUsageBillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUsageBillsView.swift; sourceTree = "<group>"; };
 		6262189E29C7FD0F00CFF843 /* HomeUsageBillsChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUsageBillsChartView.swift; sourceTree = "<group>"; };
+		626218A029C8099F00CFF843 /* FailedNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedNetworkService.swift; sourceTree = "<group>"; };
 		62C2292929C6C0AA001E82C0 /* Ampol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ampol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C2292C29C6C0AA001E82C0 /* AmpolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolApp.swift; sourceTree = "<group>"; };
 		62C2292E29C6C0AA001E82C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,8 +86,6 @@
 		62C2293329C6C0AB001E82C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		62C2293929C6C0AB001E82C0 /* AmpolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmpolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62C2293D29C6C0AB001E82C0 /* AmpolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolTests.swift; sourceTree = "<group>"; };
-		62C2294729C6C0AB001E82C0 /* AmpolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolUITests.swift; sourceTree = "<group>"; };
-		62C2294929C6C0AB001E82C0 /* AmpolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpolUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		62C2295629C6C290001E82C0 /* FuelCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuelCardView.swift; sourceTree = "<group>"; };
 		62C2295829C6C5F8001E82C0 /* Utilites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilites.swift; sourceTree = "<group>"; };
 		62C2295B29C6C993001E82C0 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
@@ -152,7 +152,6 @@
 			children = (
 				62C2292B29C6C0AA001E82C0 /* Ampol */,
 				62C2293C29C6C0AB001E82C0 /* AmpolTests */,
-				62C2294629C6C0AB001E82C0 /* AmpolUITests */,
 				62C2292A29C6C0AA001E82C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -195,17 +194,9 @@
 			isa = PBXGroup;
 			children = (
 				62C2293D29C6C0AB001E82C0 /* AmpolTests.swift */,
+				626218A029C8099F00CFF843 /* FailedNetworkService.swift */,
 			);
 			path = AmpolTests;
-			sourceTree = "<group>";
-		};
-		62C2294629C6C0AB001E82C0 /* AmpolUITests */ = {
-			isa = PBXGroup;
-			children = (
-				62C2294729C6C0AB001E82C0 /* AmpolUITests.swift */,
-				62C2294929C6C0AB001E82C0 /* AmpolUITestsLaunchTests.swift */,
-			);
-			path = AmpolUITests;
 			sourceTree = "<group>";
 		};
 		62C2295A29C6C97F001E82C0 /* Networking */ = {
@@ -429,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62C2293E29C6C0AB001E82C0 /* AmpolTests.swift in Sources */,
+				626218A129C8099F00CFF843 /* FailedNetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
